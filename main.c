@@ -3,8 +3,8 @@
 //#include "addition.h"
 //#include "soustraction.h"
 //#include "multiplication.h"
-//#include "division.h"
-#include "modulo.h"
+#include "division.h"
+//#include "modulo.h"
 //#include "puissance.h"
 
 void addition(int n1, int n2);
@@ -42,10 +42,10 @@ int main () {
 			//multiplication(n1,n2);
 			break;
 		case 4:
-			//division(n1,n2);
+			division(n1,n2);
 			break;
 		case 5:
-			modulo(n1,n2);
+			//modulo(n1,n2);
 			break;
 		case 6:
 			//puissance(n1,n2);
