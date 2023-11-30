@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+#include "addition.h"
+#include "soustraction.h"
+#include "multiplication.h"
+#include "division.h"
+#include "modulo.h"
+#include "puissance.h"
+
 void addition(int n1, int n2);
 void soustraction(int n1, int n2);
 void multiplication(int n1, int n2);
