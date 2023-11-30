@@ -1,2 +1,2 @@
 # CalculatriceC
-Mini calculatrice en C
+Mini calculatrice en C(aca)
