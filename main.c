@@ -1,11 +1,13 @@
 #include <stdio.h>
 
-#include "addition.h"
-#include "soustraction.h"
-#include "multiplication.h"
+//#include "addition.h"
+//#include "soustraction.h"
+//#include "multiplication.h"
+
 #include "division.h"
-#include "modulo.h"
-#include "puissance.h"
+//#include "modulo.h"
+//#include "puissance.h"
+
 
 void addition(int n1, int n2);
 void soustraction(int n1, int n2);
@@ -33,19 +35,19 @@ int main () {
 	
 	switch (choix) {
 		case 1:
-			addition(n1,n2);
+			//addition(n1,n2);
 			break;
 		case 2:
-			soustraction(n1,n2);
+			//soustraction(n1,n2);
 			break;
 		case 3:
-			multiplication(n1,n2);
+			//multiplication(n1,n2);
 			break;
 		case 4:
 			division(n1,n2);
 			break;
 		case 5:
-			modulo(n1,n2);
+			//modulo(n1,n2);
 			break;
 		case 6:
 			puissance(n1,n2);
