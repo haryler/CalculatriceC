@@ -56,4 +56,5 @@ int main () {
 			printf("Erreur, try again\n");
 			break;
 		}
+return 0;
 }
