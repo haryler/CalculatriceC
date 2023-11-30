@@ -3,9 +3,11 @@
 //#include "addition.h"
 //#include "soustraction.h"
 //#include "multiplication.h"
+<<<<<<< HEAD
 #include "division.h"
 //#include "modulo.h"
 //#include "puissance.h"
+>>>>>>> 95d13bc113d61789a90f84da9949ae36b7d085b2
 
 void addition(int n1, int n2);
 void soustraction(int n1, int n2);
@@ -48,7 +50,7 @@ int main () {
 			//modulo(n1,n2);
 			break;
 		case 6:
-			//puissance(n1,n2);
+			puissance(n1,n2);
 			break;
 		default:
 			printf("Erreur, try again\n");
